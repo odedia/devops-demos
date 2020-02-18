@@ -1,4 +1,0 @@
-spring:
-  main:
-    # Workaround for EurekaInstanceAutoConfiguration being defined twice.
-    allow-bean-definition-overriding: true
