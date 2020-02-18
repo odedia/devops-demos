@@ -1,0 +1,8 @@
+---
+applications:
+  - name: todo-ui
+    memory: 256M
+    routes:
+    - route: todo-ui.sysk8s.run.haas-215.pez.pivotal.io
+    docker:
+      image: odedia/todos-ui
